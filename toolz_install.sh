@@ -47,7 +47,7 @@ git clone https://github.com/rebootuser/LinEnum
 # linux-exploit-suggest.sh
 git clone https://github.com/mzet-/linux-exploit-suggester
 # linuxprivchecker.py
-wget https://github.com/sleventyeleven/linuxprivchecker/blob/master/linuxprivchecker.py
+wget https://raw.githubusercontent.com/sleventyeleven/linuxprivchecker/master/linuxprivchecker.py
 # unix-privesc-check
 git clone https://github.com/pentestmonkey/unix-privesc-check
 cd /opt
