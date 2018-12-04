@@ -16,6 +16,8 @@ git clone https://github.com/maK-/parameth
 git clone https://bitbucket.org/LaNMaSteR53/recon-ng
 # Sublist3r
 git clone https://github.com/aboul3la/Sublist3r
+# Aquatone
+git clone https://github.com/michenriksen/aquatone
 # WPScan
 git clone https://github.com/wpscanteam/wpscan
 # DNSRecon
