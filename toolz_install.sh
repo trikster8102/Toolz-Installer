@@ -1,13 +1,15 @@
 #!/bin/bash
 
-cd /opt
+home='cd /opt'
+
+`echo $home`
 # dirsearch
 git clone https://github.com/maurosoria/dirsearch
 # EyeWitness
 git clone https://github.com/FortyNorthSecurity/EyeWitness
 cd EyeWitness/setup
 ./setup.sh
-cd /opt
+`echo $home`
 # Masscan
 git clone https://github.com/robertdavidgraham/masscan
 # Parameth
@@ -28,7 +30,7 @@ cd gobuster
 apt install golang
 make
 export PATH=$PATH:/opt/gobuster
-cd /opt
+`echo $home`
 # MassDNS
 git clone https://github.com/blechschmidt/massdns
 # RobotsDisallowed
@@ -36,7 +38,7 @@ git clone https://github.com/danielmiessler/RobotsDisallowed
 # Seclists
 mkdir wordlists; cd wordlists
 git clone https://github.com/danielmiessler/SecLists
-cd /opt
+`echo $home`
 # Easy-P
 git clone https://github.com/cheetz/Easy-P
 # Nishang
@@ -52,8 +54,8 @@ git clone https://github.com/mzet-/linux-exploit-suggester
 wget https://raw.githubusercontent.com/sleventyeleven/linuxprivchecker/master/linuxprivchecker.py
 # unix-privesc-check
 git clone https://github.com/pentestmonkey/unix-privesc-check
-cd /opt
+`echo $home`
 # Empire
 mkdir priv_esc/windows; cd priv_esc/windows
 git clone https://github.com/EmpireProject/Empire
-cd /opt
+`echo $home`
