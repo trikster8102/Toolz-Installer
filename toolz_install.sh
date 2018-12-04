@@ -37,8 +37,6 @@ git clone https://github.com/danielmiessler/SecLists
 cd /opt
 # Easy-P
 git clone https://github.com/cheetz/Easy-P
-# PowerUp
-git clone https://github.com/PowerShellMafia/PowerSploit/tree/master/Privesc
 # Nishang
 git clone https://github.com/samratashok/nishang
 # Powersploit
